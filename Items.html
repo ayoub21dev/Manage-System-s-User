@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Selers</title>
+<link rel="stylesheet" href="Assets/lib/css/bootstrap.min.css">
+<link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row" style="height: 100vh; width: 100vw;">
+          <div class="col-md-2  bg-danger">
+            <ul class="nav flex-column">
+                <div class="row" >
+                    <div class="col"> 
+                       <img src="Assets/images/smartphone.png" style="width: 80px;" >
+                    </div>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link text-light " aria-current="page" href="#">Items</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="Categories.php">Categories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="Selers.php">Sellers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light " aria-disabled="true">Billing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-disabled="true">Logout</a>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="col-md-10">
+             <div class="row">
+                <div class="col ">
+                    <div class="row">
+                        <div class="col bg-warning">
+                         <h3 class="text-center">Manage Shop's Items</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Enter detials here -->
+                        <form class="row g-3">
+                            <div class="col-md-3"> 
+                              <label for="SNameTb" class="form-label">Item's Name</label>
+                              <input type="text" class="form-control" name="SNameTb" required placeholder="Enter Item's Name">
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="inputState" class="form-label">Catigoryes</label>
+                                <select name="CatCb" class="form-select">
+                                  <option selected>Your Gender</option>
+                                  
+                            
+                                </select>
+                              </div>
+   
+
+                            <div class="col-md-3">
+                              <label for="inputPassword4" class="form-label">Item's Quantity</label>
+                              <input type="text" class="form-control" name="SPhoneTb" placeholder="Enter  Quantity" required>
+                            </div> 
+
+                            <div class="col-3">
+                              <label for="inputAddress" class="form-label">Address</label>
+                              <input type="text" class="form-control" name="SAddressTb" placeholder="Enter Price" required>
+                            </div>
+                            
+                       
+                            <div class="col-6 d-grid">
+                              <button type="submit" class="btn btn-warning">Add New Agent</button>
+                            </div>
+                            
+                          </form>
+                   </div>
+
+                   <div class="row">
+                    
+                        <!-- Display list here -->
+
+                    </div>
+                </div>
+             </div>
+          </div> 
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
