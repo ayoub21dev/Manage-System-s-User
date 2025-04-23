@@ -27,7 +27,7 @@ if(isset($_POST['Save'])){
     $_SESSION['msg_type'] = "success";
 
     header("location: Selers.php");
-    header("location: Selers.php");
+
 }
 
 //(DELETE)
